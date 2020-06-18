@@ -1,0 +1,43 @@
+#googleMap{
+	float: right;
+	width: 70%;
+	height: 700px;
+	border-left: 2px solid #048B9A;
+}
+.localisation{
+	float: left;
+	width: 29%;
+	height: 700px;
+}
+
+.city{
+	text-align: center;
+	height: 500px;
+	width: 50%;
+	margin: auto;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border: 1.5px solid #048B9A;
+	border-radius: 20px;
+	
+}
+
+.my-btn{
+	width: 90%;
+	height: 35px;
+	background-color: #048B9A;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	margin-left: 5%; 
+}
+
+.my-btn:hover{
+	transition: 0.15s;
+	background-color: #037A88;
+}
+.footer{
+	margin-top: 700px;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Carte</title>
+	
+	<script src="https://kit.fontawesome.com/fa746b0bba.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../style/menu.css">
+	<link rel="stylesheet" type="text/css" href="../style/footer.css">
+	<link rel="stylesheet" type="text/css" href="../style/carte.css">
+</head>
+<body>
+	<header>
+		<!-- Menu de navigation -->
+	<nav class="my-navbar">
+		<a class="logo" href="../index.html"><img class="logoimg" src="../images/logo.png"></a>
+
+			<ul class="navigation">
+				<li class="choice">
+					<a href="../index.html">Mon experience</a>
+				</li>
+				<li class="choice">
+					<a href="gallerie.html">Ma gallerie photo</a>
+				</li>
+				<li class="choice">
+					<a class="actual" href="Carte.html"><strong>Carte</strong></a>
+				</li>
+				<li class="choice">
+					<a href="adresses.html">Meilleures adresses</a>
+				</li>
+				<li class="choice last">
+					<a href="avis.html">Avis</a>
+				</li>
+			</ul>
+	</nav>
+	</header>
+	
+
+
+
+<!-- CARTE -->
+
+<div id="googleMap"></div>
+
+<script>
+	var x = 41.86619460510049;
+	var y = 12.493852890674594;
+	var z = 5;
+function myMap2(x, y, z) {
+var mapProp= {
+  center:new google.maps.LatLng(x,y),	
+  zoom: z,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+var transition = document.getElementById("googleMap").style.transition = "0.5s";
+}
+
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(41.86619460510049, 12.493852890674594),	
+  zoom: 5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+var transition = document.getElementById("googleMap").style.transition = "0.5s";
+}
+
+</script>
+
+<!-- navigation map -->
+
+<div class="localisation">
+	<div class="city">
+		<h3>Menu de navigation:</h3>
+		<button class="my-btn" onclick="myMap2(41.86619460510049, 12.493852890674594, 10)">Rome</button>
+		<button class="my-btn" onclick="myMap2(45.4668, 9.1905, 10)">Milan</button>
+		<button class="my-btn" onclick="myMap2(45.4371908, 12.3345898, 10)">Venise</button>
+		<button class="my-btn" onclick="myMap2(43.7698712, 11.2555757, 10)">Florence</button>
+		<button class="my-btn" onclick="myMap2(40.8359336, 14.2487826, 10)">Naple</button>
+	</div>
+	
+</div>
+
+
+    <!-- FOOTER -->
+    <div class="footer">
+  		<div class="footer-links">
+		    <a href="https://www.instagram.com/carla_mondin/?hl=fr"><i class="fab fa-instagram"></i></a>
+		    <a href="https://www.facebook.com/carla.mondin.1"><i class="fab fa-facebook"></i></a>
+		    <a href="https://twitter.com/mondincarla"><i class="fab fa-twitter"></i></a>
+		    <a href="https://www.linkedin.com/in/carla-mondin-communication/?fbclid=IwAR2JpgB11KbqS33VTkLNASIHYrhT8keCRWGHPdP71q5-Hb_IPeKOgoadmlE"><i class="fab fa-linkedin"></i></a>
+		</div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC14j3T23xgBVLj8RgZtizo9MkqCvXq1C0&callback=myMap"></script>
+<!-- Le lien vers l'adresse mail -->
+	<a class="my-mail" href="mailto:carla.mondin@efap.com"> Contactez-moi </a>
+
+
+
+	 	<div class="footer-copyright">
+	    	This footer is made with <i class="fas fa-heart"></i> at Le Wagon
+	  	</div>
+	</div>
+</body>
+</html>

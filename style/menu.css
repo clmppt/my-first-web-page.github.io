@@ -1,0 +1,61 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.my-btn{
+	background-color: #048B9A;
+	border-radius: 10px;
+}
+
+.my-navbar{
+	height: 70px;
+	background-color: #048B9A;
+}
+
+.logo{
+	margin-left: 0.5%;
+	float: left;
+	color: white;
+	font-size: 50px;
+}
+
+.logoimg{
+	margin-top: 1.5%;
+	height: 55px;
+	float: left;
+
+}
+
+.navigation{
+	display: inline-block;
+	margin-top: 1.5%;
+	float: right;
+	margin-right: 2%; 
+	font-size: 16px;
+}
+
+.choice{
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 2px;
+	padding-right: 6px;
+	border-right: 1.5px solid white;
+}
+
+.choice:hover{
+	opacity: 0.5;
+}
+
+.last{
+	border-right: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.actual{
+	color: #2F4F4F;
+}

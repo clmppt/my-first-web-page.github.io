@@ -1,266 +1,148 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Muffins</title>
-  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/c366949ca7.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css">
+	<title>Site Carla</title>
+	<link rel="stylesheet" type="text/css" href="style/menu.css">
+	<link rel="stylesheet" type="text/css" href="style/monExp.css">
+	<link rel="stylesheet" type="text/css" href="style/footer.css">
+	<meta charset="utf-8">
+	<script src="https://kit.fontawesome.com/fa746b0bba.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat&display=swap" rel="stylesheet">
+	
 </head>
 <body>
-
-  <div class="line-transparent">
-    <div class="line-dark"></div>
-    <div class="line-medium"></div>
-    <div class="line-light"></div>
-  </div>
-
-  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(images/patisserie.jpg);">
-    <div class="container">
-
-    <h1 class="color-green">Les Muffins de Grand Mère</h1>
-    <h2>Fondants et croustillants</h2>
-    <img class="avatar" src="images/logo.png" alt="logo">
-    <br>
-    <a href="https://www.marmiton.org/recettes/recette_muffins-tres-simples_166385.aspx" class="btn-pink">En savoir plus</a>
-
-
-    <!-- Button trigger modal -->
-    <button type="button" class="btn-pink" data-toggle="modal" data-target="#exampleModal">
-      Infos sur moi
-    </button>
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            ...
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <a href="about.html" class="btn-pink">À mon sujet</a>
-
-    <a href="mailto:coco@gmail.com" class="btn-pink" target="_blank">Envoyez moi un mail!!!</a>
-
-    <a href="tel:0606060606" class="btn-pink">Appelle Moi!!!</a>
-
-    <a href="#productions" class="btn-pink">Vos productions</a>
-
-    <div class='switchboxCont'>
-      <input class='switch default' id='first' type='checkbox'>
-      <label for='first'></label>
-    </div>
-
-    </div>
-  </div>
-
-
-  <div class="green-frame margin-100">
-    <h3><i class="fas fa-cookie-bite"></i> Présentation</h3>
-    <p><b>Les muffins</b> sont de petits gâteaux individuels s'apparentant aux madeleines. Apparus au pays de Galles aux alentours du XIe siècle, ils sont très répandus dans les pays anglo-saxons, principalement aux États-Unis. Le principe caractéristique de fabrication des muffins consiste à préparer le mélange des ingrédients liquides et celui des ingrédients secs séparément, puis à mélanger rapidement et <i>grossièrement</i> les deux préparations. Contrairement aux cupcakes, les muffins n’ont jamais de glaçage.
-    <br>
-    Les muffins sont traditionnellement sucrés. On peut les retrouver au chocolat (avec des pépites de chocolat) ou nature, mais il existe de nombreuses autres variétés : fraise, banane, framboise, orange, vanille, myrtille ou bleuets, etc.
-    <br>
-    Il existe également des muffins salés, les English muffins ou muffins anglais, ressemblant à des sortes de petites crêpes très épaisses, faits à partir de pâte levée. Ces muffins salés sont quelquefois faits avec de la farine complète. Ils sont notamment employés comme base de la préparation des "œufs Bénédicte".</p>
-  </div>
-
-  <div class="green-frame margin-100">
-    <h3><i class="fas fa-cookie-bite"></i> La recette en vidéo</h3>
-    <iframe width="500" height="300" src="https://www.youtube.com/embed/fBuSNu2m3XA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-
-
-  <div class="two-sections margin-100">
-    <div class="green-frame text-left margin-50px-right">
-      <h4><i class="fas fa-cookie-bite"></i> Ingredients</h4>
-
-      <ul>
-        <li> 280 g de farine</li>
-        <li> 2 oeufs</li>
-        <li> 100 g de sucre</li>
-        <li> 150 ml de lait</li>
-        <li> 80 g de beurre (ou 8 cuillères à soupe d'huile)</li>
-        <li> 1 sachet de levure chimique</li>
-        <li> 1 sachet de sucre vanillé</li>
-        <li> 1 pincée de sel</li>
-        <li> Cannelle</li>
-        <li> Extrait de vanille</li>
-      </ul>
-    </div>
-
-    <div class="green-frame text-left">
-      <h4><i class="fas fa-cookie-bite"></i> Préparation</h4>
-
-      <ol>
-        <li>
-          <p><b>Etape 1</b> :
-            Dans un premier saladier : mélanger la farine, le sucre, le sel, le sucre vanillé et la levure.
-          </p>
-        </li>
-        <li>
-          <p><b>Etape 2</b> :
-            Dans un deuxième saladier : mélanger le lait, l'huile(ou beurre fondu) et les oeufs.
-          </p>
-        </li>
-        <li>
-          <p><b>Etape 3</b> :
-            Verser le contenu du second saladier dans le premier et remuer jusqu'à obtenir une pâte plutôt lisse. Laissez tout de même quelques petits grumeaux.
-          </p>
-        </li>
-        <li>
-          <p><b>Etape 4</b> :
-            Mettre au four 15 min à 180°C (thermostat 6)
-          </p>
-        </li>
-      </ol>
-    </div>
-  </div>
-
-
-  <div id="productions"></div>
-
-
-  <div class="green-frame margin-100">
-    <h3><i class="fas fa-cookie-bite"></i> Vos productions</h3>
-
-
-    <div class="three-sections">
-
-      <div class="card" style="width: 18rem;">
-        <img src="images/prod1.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Muffins de Alice</h5>
-          <p class="card-text">"Je me suis super amusée à les faire :)"</p>
-  <!--         <a href="#" class="btn btn-primary">Go somewhere</a> -->
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="images/prod2.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Muffins de Bob</h5>
-          <p class="card-text">"Je me suis super amusée à les faire :)"</p>
-  <!--         <a href="#" class="btn btn-primary">Go somewhere</a> -->
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="images/prod3.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Muffins de Charly</h5>
-          <p class="card-text">"Je me suis super amusée à les faire :)"</p>
-  <!--         <a href="#" class="btn btn-primary">Go somewhere</a> -->
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-
-  <div class="green-frame margin-100">
-    <h3><i class="fas fa-cookie-bite"></i> Ajouter votre production</h3>
-
-    <div class="typeform-widget" data-url="https://jonathanserafini.typeform.com/to/kznd7r" data-transparency="50" data-hide-headers=true data-hide-footer=true style="width: 100%; height: 300px;"></div>
-    <script>
-    (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
-    </script>
-    <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=kznd7r&utm_source=typeform.com-01D8JWWB479X4Z5V6G570B0ZZK-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a>
-    </div>
-
-
-  </div>
-
-
-
-  <div class="green-frame margin-100">
-    <h3><i class="fas fa-cookie-bite"></i> Une super adresse!</h3>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2828.351573239746!2d-0.5746971844779813!3d44.855137081896586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd552994e9d37bed%3A0x91405fbf10a89d71!2sMaison%20Boileau!5e0!3m2!1sfr!2sfr!4v1589547826566!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-
-  </div>
-
-
-  <video src="videos/test.mp4" width="500" controls>
-    Votre navigateur ne gère pas l'élément <code>video</code>.
-  </video>
-
-
-  <div class="machine">
-    <div id="belt-container" class="belt-container"></div>
-  </div>
-
-
-  <iframe width="966" height="543" src="https://www.youtube.com/embed/ixf55lEwPv0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
-
-  <script>
-    let beltCont = $("#belt-container");
-
-    for (let i = 1; i <= 150; i++) {
-      let belt = $("<div />");
-      let cake = $("<div />");
-      let layerOne = $("<div />");
-      let filling = $("<div />");
-      let layerTwo = $("<div />");
-      let topping = $("<div />");
-      let candle = $("<div />");
-
-      layerOne.css({
-        backgroundColor: "hsl(" + Math.floor(Math.random() * i * 50) + ", 30%, 60%"
-      });
-
-      layerTwo.css({
-        backgroundColor: "hsl(" + Math.floor(Math.random() * i * 50) + ", 60%, 35%"
-      });
-
-      topping.css({
-        backgroundColor: "hsl(" + Math.floor(Math.random() * i * 25) + ", 50%, 50%"
-      });
-
-      belt.addClass("belt");
-      cake.addClass("cake");
-      layerOne.addClass("layer layer-1");
-      filling.addClass("filling");
-      layerTwo.addClass("layer layer-2");
-      topping.addClass("layer topping");
-      candle.addClass("candle");
-
-      belt.css({
-        left: 1 * i * 150
-      });
-
-      cake.append(layerOne, filling, layerTwo, topping, candle);
-      belt.append(cake);
-
-      beltCont.append(belt);
-    }
-
-  </script>
-
-
-
-
-
-
+	<!-- Menu de navigation -->
+	<header>
+		<nav class="my-navbar">
+			<a class="logo" href="index.html"><img class="logoimg" src="images/logo.png"></a>
+
+			<ul class="navigation">
+				<li class="choice">
+					<a class="actual" href="index.html"><strong>Mon experience</strong></a>
+				</li>
+				<li class="choice">
+					<a href="inc/gallerie.html">Ma gallerie photo</a>
+				</li>
+				<li class="choice">
+					<a href="inc/Carte.html">Carte</a>
+				</li>
+				<li class="choice">
+					<a href="inc/adresses.html">Meilleures adresses</a>
+				</li>
+				<li class="choice last">
+					<a href="inc/avis.html">Avis</a>
+				</li>
+			</ul>
+	</nav>
+</header>
+	
+
+	<!-- Contenu du site -->
+	<div class="background">
+		<div class="p1">
+			<h1>Hey, bienvenue sur mon site de voyages !</h1></br>
+
+				<p>
+				Moi c’est Carla, j’ai 20ans et je suis une passionnée des voyages. Sur cette page j’aimerais vous faire partager mes expériences et mes envies et pourquoi pas vous orienter dans vos choix de vacances.</br>
+				J’ai basé mes articles sur l’Italie, mon pays d’origine et certainement celui dans lequel j’ai le plus voyagé. De Venise à Naples en passant par toutes les cotes en bateau... </br>
+				Ici vous trouverez : 
+				<ul class="liste">
+					<li>
+						Des adresses incontournables 
+					</li>
+					<li>
+						Des anecdotes de voyage
+					</li>
+					<li>
+						Des photos pour vous projeter dans vos futurs voyages 
+					</li>
+					<li>
+						Et mes carnets de voyageuse
+					</li>
+				</ul>
+
+				</p>
+		</div>
+
+		<!-- VIDEO --> 
+		<div class="semi-transparent"><div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/G0EUqGhYZ6Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
+	
+	
+
+		<div class="monExperience contenu">
+			<h2>Mon experience:</h2></br>
+			<h4>Je vais vous partager mon experience au travers des villes qdans les quels j'ai eu la chance de séjourner durant mon voyage en Italie.</h4></br>
+				<p>
+					<strong>Milan :</strong> </br>
+					En janvier 2020 j’ai eu la chance de partir à Milan pour un week-end de 4 jours en amoureux !</br>
+					C’est une ville incroyable, le parfait mélange entre les traditions, l’ancien et le moderne ! Le résultat est sublime, </br>au cours d’une balade on peut voir les monuments des sciecles derniers, remplis d’histoire mais aussi l’architecture </br>futuriste des nouveaux buildings.
+					Je recommande cette ville à tous les étudiants qui veulent vivre une vie dynamique </br>et ceux qui sont ouverts à de nouvelles cultures. De plus, Milan est très prisés par les passionnés de la mode, c’est un véritable </br>temple de la mode à ciel ouvert. Entre les boutiques et les tenues des milanais vous ne </br>saurez plus ou donner de la tête ! </br></br>
+				</p>
+				<p>
+					<strong>Rome :</strong></br>
+					Rome est un musée à ciel ouvert et ce n’est pas un euphémisme ! Difficile d’égaler une ville aussi riche de petits et grands trésors </br>découverts dans chaque quartier, ruelle, église.</br>
+					J’ai eu la chance de visiter cette ville 2 fois et j’ai toujours autant envie d’y retourner !</br>
+					La capitale italienne regorge de qualitées.</br></br>
+				</p>
+
+				<p>
+					<strong>La cuisine :</strong> pâtes, pizza, lasagne, glace, tiramisu... et j’en passe (le spritz !)
+					Si vous n’êtes pas féru de musées, pas de panique : </br>la ville peut se suffire à elle même pour un premier séjour ! Lors de vos promenades vous vous rendrez compte de la beauté de cette </br>ville aux multiples vestiges.
+					Dans chaque quartier, il y a quelques choses à faire et à voir !  A Rome, impossible de s’ennuyer.</br></br>
+
+				</p>
+				<p>
+					<strong>Venise :</strong></br>
+					Venise est général considéré comme un là belle ville incontournable lors d’un voyage en Amoureux. </br>
+					Mais que ce soit dans le cadre d’un séjour exclusivement dédié à Venise, un road trip en Italie, ou une combinaison </br>de visites de plusieurs villes italiennes, Venise est à incontestablement une ville à découvrir.</br>
+
+					<ul class="liste">
+						<li>la place saint marc </li>
+						<li>La basilique saint Marc </li>
+						<li>Le campanile </li>
+						<li>Le palais des doges</li>
+					</ul>
+					Et encore beaucoup d’autres, sans compter l’incontournable carnaval.
+
+					</br></br>
+				</p>
+				<p>
+					<strong>Florence :</strong></br>
+					La ville incontestablement élégante ! </br>
+					Tres propre et Luxueuse cette ville me fair penser à un petit paris mais seulement les beaux quartiers ! </br>
+					Selon moi, 2 jours permettent déjà de bien s’imprégner de cette ville, et d’en découvrir l’essentiel !</br>
+					Ce que je vous conseille : visite de la cathédrale, se promener sur le fleuve Arno, (au couché </br>de soleil c’est encore plus beau !) le ponte vecchio, la piazza sel duomo (mais pas celui de milan cette fois ci !)
+					</br></br>
+				</p>
+				<p>
+					<strong>Naples :</strong></br>
+					Naple est construite sur un certain nombre de collines qui permettent de disposer de points de vue sur la ville.</br> Ce panorama se prête particulièrement bien aux couleurs du coucher de soleil où le soleil couchant vient </br>éclairer la ville et le Vésuve. Au lever du soleil c’est l’inverse, le soleil se lève à l’horizon </br>derrière le Vésuve.
+					Je peux vous conseiller d’aller à la Solfatra lors d’une excursion d’une journée, le soufre sort </br>encore de la pierre volcanique, c’est une expérience incroyable.
+
+					</br></br>
+				</p>
+		</div>
+	</div>
+		
+
+    <!-- FOOTER -->
+    <div class="footer">
+  		<div class="footer-links">
+		    <a href="https://www.instagram.com/carla_mondin/?hl=fr"><i class="fab fa-instagram"></i></a>
+		    <a href="https://www.facebook.com/carla.mondin.1"><i class="fab fa-facebook"></i></a>
+		    <a href="https://twitter.com/mondincarla"><i class="fab fa-twitter"></i></a>
+		    <a href="https://www.linkedin.com/in/carla-mondin-communication/?fbclid=IwAR2JpgB11KbqS33VTkLNASIHYrhT8keCRWGHPdP71q5-Hb_IPeKOgoadmlE"><i class="fab fa-linkedin"></i></a>
+		</div>
+
+
+<!-- Le lien vers l'adresse mail -->
+	<a class="my-mail" href="mailto:carla.mondin@efap.com"> Contactez-moi </a>
+
+
+
+	 	<div class="footer-copyright">
+	    	This footer is made with <i class="fas fa-heart"></i> at Le Wagon
+	  	</div>
+	</div>
 </body>
 </html>

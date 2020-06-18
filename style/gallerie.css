@@ -1,0 +1,35 @@
+body{
+	background-color: #f7f7f7; 
+}
+
+.gradient{
+	width: 100%;
+	height: 150px;
+	background: linear-gradient(#048B9A ,#f7f7f7);
+}
+
+.gallerie{
+	width: 100%;
+	height: 270px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.case{
+	height: 230px;
+	width: 15%;
+
+}
+
+.case:hover{
+	border: 1px solid black;
+}
+
+
+
+.img{
+	width: 100%;
+	height: 100%;
+}
